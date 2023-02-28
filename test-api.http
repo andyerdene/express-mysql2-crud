@@ -1,2 +1,7 @@
 GET http://localhost:6000/employee/?emp_no=300002 HTTP/1.1
 content-type: application/json
+
+###
+
+POST http://localhost:6000/employee/?emp_no=300002 HTTP/1.1
+content-type: application/json
